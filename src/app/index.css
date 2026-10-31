@@ -1,0 +1,30 @@
+@import 'tailwindcss';
+
+.toastify {
+  position: fixed;
+  z-index: 2147483647;
+  max-width: min(420px, calc(100vw - 32px));
+  padding: 14px 18px;
+  border-radius: 6px;
+  background: #ffffff;
+  box-shadow:
+    0 10px 25px -5px rgba(0, 0, 0, 0.1),
+    0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  color: #0f172a;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  border: 1px solid #e2e8f0;
+}
+
+.etc-toast--success {
+  border-left: 4px solid #10b981;
+}
+
+.etc-toast--error {
+  border-left: 4px solid #ef4444;
+}
+
+.etc-toast--info {
+  border-left: 4px solid #3b82f6;
+}
